@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+*{margin:0; padding:0;}
+
+body{ background-color: #333;}
+
+header{
+	width: 80%;
+	padding:1% 5% 1% 5%;
+	background-color: blue;
+	color:blue;
+	margin:auto;
+	margin-bottom: 1%;
+	display: table;
+}
+/*Elementos Header*/
+.logotipo{
+	display:table-cell;
+	width: 30%;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 2px 2px blue;
+	color: yellow;
+	font-family: 'Shrikhand', cursive;
+}
+@keyframes promo{
+	from{ background-color: blue; }
+	to{ background-color: lightblue; }
+}
+.foo_esq {
+
+	color: yellow;
+}
+
+.promo{
+	display:table-cell;
+	width: 30%;
+	font-size:25px;
+	text-align: center;
+	color:#fff;
+	vertical-align: middle;
+	animation-name: promo;
+	animation-duration: 5s;
+	padding:2%;
+}
+
+
+.social{
+	display:table-cell;
+	width: 30%;
+	text-align: right;
+	vertical-align: middle;
+	font-size:20px;
+	
+
+}
+.social a li{ display: inline; }
+.social a{
+	text-decoration: none;
+	color:orange;
+}
+.social a:hover{ color:#333; }
+/*--------------------------------------------------------------------*/
+/* Barra topo Main ++++ MAIN    --------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+main{
+	width: 80%;
+	padding:1% 5% 50% 5%;
+	background-color: lightblue;
+	color:#333;
+	margin:auto;
+	margin-bottom: 1%;
+}
+.topline{
+	width: 100%;
+	display: table;
+}
+.promotop{
+	display: table-cell;
+	width: 80%;
+}
+.login{
+	display: table-cell;
+	width: 20%;
+	background-color: blue;
+	padding: 1%;
+	border-color: black;
+	border-width: thick;
+	border-style: double;
+	border-top-right-radius: 31px;
+	border-bottom-left-radius: 31px;
+	border-bottom-right-radius: 31px;
+	border-top-left-radius: 31px;
+	color:yellow;
+}
+
+/* Formatacao de formulario de login */
+.login input{
+	width: 90%;
+	padding:0.5% 5% 0.5% 5%;
+	border:0;
+	border-radius: 12px;
+	margin-bottom: 2%;
+}
+.login input[type="submit"]{
+	background-color: black;
+	padding:2% 5%;
+	width: 100%;
+	cursor: pointer;
+	font-weight: bold;
+	color: yellow;
+
+}
+.login input[type="submit"]:hover{
+	background-color: #fff;
+	color:orange;
+}
+/* ----------------------------------------------------------------- */
+/* ------------------- NAV ------------------------------------------*/
+/* ------------------------------------------------------------------*/
+nav{
+	width: 80%;
+	padding:1% 5% 1% 5%;
+	background-color: darkblue;
+	color:#333;
+	margin:auto;
+	margin-bottom: 1%;
+	text-align: center;
+}
+nav ul li{
+	display: inline;
+	color:#333;
+	margin-right: 5%;
+}
+nav ul li a{
+	text-decoration: none;
+	color: yellow;
+}
+nav ul li a:hover{
+	color:#fff;
+}
+
+/* ----------------------------------------------------------------- */
+/* ------------------- CONTEUDOS ------------------------------------*/
+/* ------------------------------------------------------------------*/
+.conteudos{}
+.pre{
+	width: 90%;
+	padding: 5%;
+}
+.conteudo{
+	width: 90%;
+	padding: 5%;
+	margin-top: 2%;
+}
+.conteudo input{
+	width: 100%;
+	padding:1%;
+}
+.conteudo input[type="submit"]{
+	background-color: blue;
+	color:yellow;
+	font-weight: bold;
+	font-size: 20px;
+	border:0;
+	padding:3%;
+	width: 100%;
+	margin-top:1%;
+}
+.conteudo select{
+	width: 100.1%;
+	padding:1%;
+	background-color: blue;
+	color:yellow;
+	margin-bottom: 1%;
+	font-size: 20px;
+}
+.conteudo textarea{
+	width: 90%;
+	padding:5%;
+	margin-bottom: 1%;
+}
