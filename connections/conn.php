@@ -3,7 +3,7 @@
 //Declaracao de variaveis de ligacao
 $servername = "azuresqldb12.database.windows.net";
 $username = "chicoizy";
-$password = "_Superbond1";
+$password = "_Chicoizy1";
 
 $conn = mysqli_connect($servername,$username, $password);
 //Verificar a ligacao
