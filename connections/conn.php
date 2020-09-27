@@ -2,8 +2,8 @@
     $serverName = "servidordabasedados.database.windows.net"; // update me
     $connectionOptions = array(
         "Database" => "basededadosdaloja", // update me
-        "Uid" => "chicoizy", // update me
-        "PWD" => "_Alface1" // update me
+        "Uid" => "", // update me
+        "PWD" => "" // update me
     );
     //Establishes the connection
     $conn = sqlsrv_connect($serverName, $connectionOptions);
